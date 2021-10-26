@@ -498,6 +498,47 @@ header{
     text-decoration: none;
 }
 
+.section-benefits{
+    padding-top: 100px;
+    padding-bottom: 202px;
+}
+
+.benefits{
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit-content{
+    margin: 0;
+    margin-top: 5px;
+    max-width: 270px;
+    height: 296px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 4px 40px rgb(0 0 0 / 10%);
+    padding: 30px 24px;
+    text-align: center;
+}
+
+.benefit-title{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 13px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    width: 200px;
+}
+
+.benefit-description{
+    font-size: 14px;
+    line-height: 22px;
+    color: #49494F;
+}
+
+
+
 @media (max-width: 1260px) {
     .container{
         max-width: 960px;
